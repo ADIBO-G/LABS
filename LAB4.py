@@ -40,7 +40,20 @@ print("Area: ",Area)
 '''
 
 #<4>
+'''
+h=int(input("enter hours"))
+m=int(input("enter minutes"))
 
+nm=m+15
+
+if nm>59:
+    h=h+1
+    nm=nm-60
+    if h>23:
+        h=h-24
+       
+print(f"{h}:{nm}")
+'''
 
 
 
@@ -108,11 +121,19 @@ for x in range(1,1000):
 '''
 
 #<9>
-
+'''
 n = int(input())
 total = sum(int(input())
 for _ in range(n))
 print("The sum is:", total)
+'''
+
+
+#<10>
+'''
+n=int(input())
+for i in range(1,11):
+    print(i,"x",n,"=",i*n,"\n")'''
 
     
 
