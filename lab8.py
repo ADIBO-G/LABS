@@ -1,5 +1,6 @@
 #Lab8
-#Q1
+#1
+'''
 s=input()
 v=0
 c=0
@@ -22,7 +23,9 @@ print("Consonants:",c)
 print("Digits:",d)
 print("Spaces:",sp)
 print("Others:",o)
-#Q2
+'''
+#2
+'''
 s=input()
 r=""
 for i in range(len(s)):
@@ -55,7 +58,9 @@ elif t>=2:
     print("MODERATE")
 else:
     print("WEAK")
-#Q4
+'''
+#4
+'''
 s=input()
 x=input()
 c=0
@@ -69,13 +74,17 @@ if c==0:
     print("Positions: -1")
 else:
     print("Positions:",*a)
-#Q5
+'''
+#5
+'''
 s=input()
 a=[]
 for i in s.split():
     a=a+[len(i)]
 print(*a)
-#Q6
+'''
+#6
+'''
 s=input()
 flag=1
 if len(s)!=10:
@@ -93,7 +102,9 @@ if flag==1:
     print(True)
 else:
     print(False)
-#Q7
+'''
+#7
+'''
 s=input()
 c=0
 for i in range(len(s)//2):
@@ -107,7 +118,9 @@ for i in s:
     if i not in r:
         r=r+i
 print(r)
-#Q9
+'''
+#9
+'''
 s=input()
 k=int(input())
 r=""
@@ -117,7 +130,9 @@ for i in s:
     else:
         r=r+chr((ord(i)-97+k)%26+97)
 print(r)
-#Q10
+'''
+#10
+'''
 s=input()
 ch=s[0]
 m=1
@@ -131,3 +146,4 @@ for i in range(1,len(s)):
         m=c
         ch=s[i]
 print(ch,m)
+'''
